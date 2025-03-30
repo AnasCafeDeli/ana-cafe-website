@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana's Cafe and Deli</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+            background-color: #fdfd96;
+        }
+        h1 {
+            color: #333;
+        }
+        .menu-section {
+            margin-top: 30px;
+        }
+        .menu-item {
+            margin-bottom: 10px;
+        }
+        .menu-item b {
+            color: black;
+        }
+        .wrap-header {
+            font-weight: bold;
+        }
+
+         h2 {
+            font-size: 24px; /* 2 font sizes larger */
+            text-decoration: underline; /* Underline headers */
+            margin-top: 20px; /* Added spacing before the header */
+            margin-bottom: 10px; /* Added spacing below the header */
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>Ana's Cafe and Deli</h1>
+    
+    <div class="menu-section">
+        <h2>Sandwiches</h2>
+        <p class="menu-item"><b>Turkey Sub | Half $8.29 - Whole $10.49</b><br>Turkey breast, lettuce, tomato, red onion, provolone cheese, and mayo. Served on a fresh-baked Italian roll.</p>
+        <p class="menu-item"><b>Turkey Club | Half $8.49 - Whole $10.99</b><br>Turkey breast, bacon, avocado, provolone cheese, lettuce, tomato, and mayo. Served on a fresh-baked Italian roll.</p>
+        <p class="menu-item"><b>Turkey Turkey | Half $7.29 - Whole $9.49</b><br>Turkey breast, lettuce, tomato, and mayo. Served on fresh-baked Italian bread.</p>
+        <p class="menu-item"><b>Americano Sub | Half $8.49 - Whole $10.99</b><br>Turkey breast, salami, ham, American cheese, lettuce, tomato, red onion, and mayo. Served on a fresh-baked Italian roll.</p>
+        <p class="menu-item"><b>Meatball Sandwich | Half $8.49 - Whole $10.99</b><br>Italian meatballs with parmesan cheese and marinara sauce. Served on a fresh-baked Italian roll.</p>
+        <p class="menu-item"><b>Tuna Sandwich | Half $8.29 - Whole $10.49</b><br>Mix of tuna salad, celery, red onion, mayo, and celery salt with cheddar cheese. Served on fresh Italian bread.</p>
+        <p class="menu-item"><b>Italian Sandwich | Half $8.49 - Whole $10.99</b><br>Salami, capicola, ham or pepperoni, lettuce, red onion, tomato, Italian seasoning, mayo and olive vinegar. Served on white bread.</p>
+        <p class="menu-item"><b>Chicken Breast Sub | Half $8.49 - Whole $10.99</b><br>Sliced oven roasted chicken breast, tomato, lettuce, mayo, and American cheese. Served on fresh Italian bread.</p>
+        <p class="menu-item"><b>Chicken Sandwich | Half $8.49 - Whole $10.99</b><br>Sliced oven roasted chicken breast with lettuce, tomato, avocado and chipotle mayo. Served on fresh baked Italian roll.</p>
+        <p class="menu-item"><b>Spicy Chicken Sandwich | Half $8.49 - Whole $10.99</b><br>Cajun chicken breast, pepper jack cheese, bacon, jalapeños, chipotle mayo, lettuce, and tomato. Served on fresh baked Italian bread.</p>
+        <p class="menu-item"><b>Cajun Chicken Sub | Half $8.49 - Whole $10.99</b><br>Cajun seasoned chicken breast, lettuce, tomato, chipotle mayo and pepper jack cheese. Served on fresh baked Italian roll.</p>
+        <p class="menu-item"><b>BLT | Half $8.29 - Whole $10.49</b><br>Bacon, lettuce, tomato, and mayo. Served on white bread.</p>
+        <p class="menu-item"><b>Ham Italian Roll | Half $8.29 - Whole $10.49</b><br>Ham, lettuce, tomato, Swiss cheese, and mayo. Served on fresh baked Italian roll.</p>
+        <p class="menu-item"><b>Roast Beef Sub | Half $8.99 - Whole $12.99</b><br>Roast beef, Swiss cheese, lettuce, tomato and horseradish sauce. Served on Fresh baked Italian roll.</p>
+        <p class="menu-item"><b>Reuben Sandwich | Half $8.99 - Whole $12.99</b><br>Corned beef, sauerkraut, Swiss cheese, and thousand island dressing. Served on rye bread.</p>
+        <p class="menu-item"><b>Ana’s Special Steak Sandwich | Half $10.99 - Whole $13.99</b><br>Steak fajita with pepper jack cheese, lettuce, tomato and mayo. Served on fresh baked French roll.</p>
+    </div>
+    
+    <div class="menu-section">
+        <h2>Focaccias</h2>
+        <p class="menu-item"><b>Chicken Focaccia | Half $10.99 Whole $13.99</b><br>Chicken, lettuce, tomato, mayo, and American cheese. Served on Focaccia bread.</p>
+        <p class="menu-item"><b>Ham Focaccia | Small $10.99 Whole $13.99</b><br>Ham, lettuce, tomato, mayo, and American cheese. Served on Focaccia bread.</p>
+        <p class="menu-item"><b>Turkey Focaccia | Small $10.99 Whole $13.99</b><br>Turkey, lettuce, tomato, mayo, and American cheese. Served on Focaccia bread.</p>
+        <p class="menu-item"><b>Italian Focaccia | Small $10.99 Whole $13.99</b><br>Salami, capicola, ham or pepperoni, lettuce, tomato, mayo, and American cheese. Served on Focaccia bread.</p>
+    </div>
+    
+    <div class="menu-section">
+        <h2>Paninis</h2>
+        <p class="menu-item"><b>Chicken Pesto Panini | $11.49</b><br>Oven-roasted chicken, provolone cheese, spinach, tomato, and pesto aioli.</p>
+        <p class="menu-item"><b>Italiani Panini | $11.49</b><br>Salami, pepperoni, ham, provolone cheese, tomato, hot giardiniera, mayo, and Italian dressing.</p>
+        <p class="menu-item"><b>Ham Panini | $11.49</b><br>Ham, pepper jack cheese, banana peppers, tomato, and chipotle mayo.</p>
+        <p class="menu-item"><b>Turkey Club Panini | $11.49</b><br>Turkey, bacon, cheddar cheese, and dijonnaise mayo.</p>
+    </div>
+    
+   <div class="menu-section">
+        <h2>Hot Dogs</h2>
+        <p class="menu-item"><b>Cheese Hotdog | $5.49</b></p>
+        <p class="menu-item"><b>Chili Cheese Hotdog | $5.49</b></p>
+        <p class="menu-item"><b>Rueben Hotdog | $5.49</b><br>Chicago style all beef hotdog with sauerkraut.</p>
+        <p class="menu-item"><b>Chicago Style Hotdog | $4.99</b><br>Chicago style all beef hotdog with mustard, relish, onion, pickle, tomato, celery salt, and sport peppers.</p>
+    </div>
+
+    <div class="menu-section">
+        <h2>Wraps</h2>
+        <p class="wrap-header">Your choice of Wrap : Spinach (GF), White or Wheat</p>
+        <p class="menu-item"><b>Chicken Caesar | $9.99</b><br>Oven roasted chicken breast, romaine, croutons, grated parmesan cheese, and Caesar dressing.</p>
+        <p class="menu-item"><b>Buffalo Chicken | $9.99</b><br>Oven roasted chicken with shredded cheddar cheese, lettuce, tomato, buffalo sauce, and ranch dressing.</p>
+        <p class="menu-item"><b>BBQ Chicken | $9.99</b><br>Oven roasted chicken breast, cheddar cheese, lettuce, tomato, and chipotle BBQ sauce.</p>
+        <p class="menu-item"><b>BLT Wrap | $9.99</b><br>Bacon, lettuce, tomato, and mayo.</p>
+        <p class="menu-item"><b>Tuna Salad Wrap | $9.99</b><br>Tuna salad, onion, celery, mayo and celery salt, and cheddar cheese.</p>
+        <p class="menu-item"><b>Loaded 3 Meats | $10.49</b><br>Turkey breast, ham, bacon, shredded lettuce, tomato, and ranch dressing.</p>
+        <p class="menu-item"><b>Turkey Wrap | $9.99</b><br>Oven roasted turkey breast, bacon, shredded lettuce, tomato, and ranch dressing.</p>
+        <p class="menu-item"><b>Veggie Wrap | $9.99</b><br>Bell pepper, lettuce, tomato, cucumber, carrots, avocado, and red onion.</p>
+    </div>
+
+   <div class="menu-section">
+        <h2>Salads</h2>
+        <p class="menu-item"><b>Cob Salad | $10.49 - With Chicken $12.49</b><br>Romaine, bacon, blue cheese, hard boiled eggs, avocado, tomato and cucumber.</p>
+        <p class="menu-item"><b>Buffalo Blue Salad | $10.49</b><br>Romaine, blue cheese, celery, buffalo chicken, tomato, onion and ranch dressing.</p>
+        <p class="menu-item"><b>BBQ Chicken Salad | $9.99 - With Cajun Chicken $11.99</b><br>Romaine, black beans, cheddar cheese, tomato, corn, cilantro, onion and chipotle ranch dressing.</p>
+        <p class="menu-item"><b>Garden Salad | $9.99</b><br>Romaine, lettuce, cabbage, tomato, onion, carrots and Italian dressing.</p>
+        <p class="menu-item"><b>Caesar Salad | $9.99 - With Chicken $11.99</b><br>Lettuce, romaine, croutons, parmesan cheese and Caesar dressing.</p>
+        <p class="menu-item"><b>Greek Salad | $9.99 - With Chicken $11.99</b><br>Romaine, tomato, kalamata olives, red onion, cucumber, feta cheese, and balsamic vinaigrette.</p>
+        <p class="menu-item"><b>Ana’s Special Salad | $12.99</b><br>Bell pepper, romaine, tomato, bacon, corn, mozzarella cheese, cucumber, red onion, egg with turkey or ham.</p>
+    </div>
+
+     <div class="menu-section">
+        <h2>Soups</h2>
+        <p class="menu-item"><b>Chili | Small $7.00 - Large $8.50</b><br>Tender ground beef, kidney beans, tomatoes, and a secret blend of spices.</p>
+        <p class="menu-item"><b>Chicken Noodles | Small $4.99 - Large $5.99</b><br>Tender chicken, egg noodles, and vegetables like carrots and celery, all simmered in a flavorful broth.</p>
+    </div>
+
+    <div class="menu-section">
+        <h2>Pastries</h2>
+        <p class="menu-item"><b>Gelatine | $4.50</b></p>
+        <p class="menu-item"><b>Yogurt with Fruit | $6.00</b></p>
+        <p class="menu-item"><b>Tiramisu | $5.50</b></p>
+        <p class="menu-item"><b>Rice Pudding | $5.00</b></p>
+        <p class="menu-item"><b>Lemon Pie | $4.99</b></p>
+        <p class="menu-item"><b>Pan Dulce (Sweet Bread) | $1.99</b></p>
+    </div>
+
+   <div class="menu-section">
+        <h2>Drinks</h2>
+        <p class="menu-item"><b>Green Juice | Medium $6.50 - Large $8.50</b><br>Spinach, kale, celery, cucumber, green apple, and pineapple.</p>
+        <p class="menu-item"><b>Orange Juice | Medium $5.50 - Large $7.50</b><br>Freshly squeezed orange juice.</p>
+        <p class="menu-item"><b>Bottled Water | $1.25</b></p>
+        <p class="menu-item"><b>Canned Drink | $1.50</b></p>
+        <p class="menu-item"><b>Arnold Palmer | $1.50</b></p>
+        <p class="menu-item"><b>Apple Juice | $2.50</b></p>
+        <p class="menu-item"><b>Cranberry Juice | $2.50</b></p>
+        <p class="menu-item"><b>Pure Leaf | $2.99</b></p>
+        <p class="menu-item"><b>Energy Drinks | $2.99</b></p>
+     </div>
+
+   
+
+   
+
+  
+</body>
+</html>
